@@ -4,7 +4,7 @@ node {
 	
 	try{
 		stage('Clone Repo'){
-		git url: 'https://github.com/Rohan8590/dockerpipeline',
+		git url: 'https://github.com/Rohan8590/dockerpipeline.git',
 			credentialsId: 'githubaccount',
 			branch: 'main'
 		}
